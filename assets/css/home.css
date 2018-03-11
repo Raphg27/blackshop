@@ -312,3 +312,36 @@ width: 500px;
 #third_left_pic {
 width: 500px;
 }
+
+/* First banner */
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  padding: 0 100px;
+}
+
+.black-banner {
+  background-color: #111111;
+}
+
+
+.banner-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.black-banner-box {
+  color: white;
+}
+
+.icon {
+  width: 50px;
+  margin-bottom: 25px;
+}
