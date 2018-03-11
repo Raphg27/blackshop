@@ -1,0 +1,347 @@
+/* GENERAL */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+
+/* Button */
+.button {
+  border: 3px solid #fff;
+  color: white;
+  background: none;
+  cursor: pointer;
+  padding: 15px 50px;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  outline: none;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  z-index: -1;
+  transition: all 0.3s;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  opacity: 0;
+-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+-moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+-ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+transform: translateX(-50%) translateY(-50%) rotate(45deg);
+box-sizing: border-box;
+}
+
+.button:hover:after {
+  height: 450%;
+  opacity: 0.5;
+  color: black;
+}
+
+.button:active {
+  color: black;
+}
+
+
+/* Text boxes */
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  word-break: break-word;
+  width: 500px;
+  height: 500px;
+  line-height: 1.8;
+}
+
+/* Titles */
+
+.text-title {
+  font-size: 26px;
+}
+
+
+/* Page header */
+
+.page-header {
+  margin-bottom: -100px;
+  position: fixed;
+  z-index: 150;
+  left: 50px;
+  top: 50px;
+}
+
+#logo {
+    height: 40px;
+}
+
+.blackshop__subheading {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+
+.page-hero {
+  z-index: 100;
+  background-color: #222;
+  height: 100vh;
+  width: 100%;
+}
+
+.page-hero__bg {
+  height: 100vh;
+  background-image: url("../../images/hero_bg.jpg");
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0px;
+}
+
+.page-hero__content {
+  position: fixed;
+  width: 100%;
+  transform: translateY(-56px);
+}
+
+.header-content {
+  display: block;
+  height: 100vh;
+  padding: 0;
+  text-align: center;
+}
+
+#macbook {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+#style {
+  font-size: 45px;
+  color: white;
+  margin-top: 30px;
+}
+
+#hero-buttons {
+  position: absolute;
+  width: 100%;
+  bottom: 5%;
+}
+
+
+.header-content__center {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* PAGE CONTENT */
+.page-content {
+    z-index: 300;
+    position: relative;
+    background-color: #fff;
+
+}
+
+
+/* First section */
+.first-section {
+    background-image: url("../../images/first_back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 500;
+    height: 700px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.first-section-text {
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+#first_right_pic {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  right: 100px;
+  top: 400px;
+}
+
+#first_left_pic {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  left: 100px;
+  top: 650px;
+  z-index: 10;
+}
+
+/* white space (breaker) */
+.white-space {
+  height: 500px;
+  background: #ffffff;
+}
+
+/* Second section*/
+.second-section {
+  background-image: url("../../images/second_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 500;
+  height: 810px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.second-section-text {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.pix {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 1950px;
+}
+
+.pix-title {
+  font-size: 25px;
+}
+
+.pix-text {
+  position: absolute;
+color: white;
+z-index: 300;
+bottom: 10%;
+padding: 50px;
+line-height: 1.8;
+display: flex;
+flex-direction: column;
+}
+
+.left-pix {
+  position: absolute;
+  right: 50%;
+}
+
+.right-pix {
+  position: absolute;
+  left: 50%;
+}
+
+#right-pix-special-text {
+  bottom: 5%;
+}
+
+.white-text {
+  bottom: 20%;
+}
+
+#second_left_pic {
+  width: 500px;
+  height: 500px;
+}
+
+#second_right_pic {
+  width: 500px;
+  height: 500px;
+}
+
+
+/* Third section */
+
+.third-section {
+  background-image: url("../../images/third_bg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 500;
+  height: 810px;
+  display: flex;
+  justify-content: center;
+}
+
+.third-section-text {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.third-section-pix {
+    top: 3100px;
+}
+
+.third-section-pix-text {
+  color: lightgrey;
+  font-weight: bold;
+  text-align: center;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+bottom: 0%;
+padding: 0;
+}
+
+.third-section-pix-title {
+  font-size: 16px;
+}
+
+#thrid_right_pic {
+width: 500px;
+}
+
+#third_left_pic {
+width: 500px;
+}
+
+/* First banner */
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  padding: 0 100px;
+}
+
+.black-banner {
+  background-color: #111111;
+}
+
+
+.banner-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.black-banner-box {
+  color: white;
+}
+
+.icon {
+  width: 50px;
+  margin-bottom: 25px;
+}
