@@ -267,3 +267,21 @@ flex-direction: column;
   width: 500px;
   height: 500px;
 }
+
+
+/* Third section */
+
+.third-section {
+  background-image: url("../../images/third_bg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 500;
+  height: 810px;
+  display: flex;
+  justify-content: center;
+}
+
+.third-section-text {
+  text-align: center;
+  margin-top: 200px;
+}
