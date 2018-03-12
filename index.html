@@ -69,7 +69,7 @@
         <div class="right-pix" data-aos="fade-left" data-aos-duration="800">
           <div class="pix-text" id="right-pix-special-text">
             <span class="pix-title">Jet Gloss finish</span>
-            <span>Dipped in the finest mixture to produce an ultra high quality, reflective, black finish, our Signature Jet Gloss option is guaranteed to make a statement on any MacBook and seperate it from the crowd.</span>
+            <span>Dipped in the finest mixture to produce an ultra high quality, reflective, black finish, our Signature Jet Gloss option is guaranteed to make a statement on any MacBook and separate it from the crowd.</span>
           </div>
           <img src="images/second_right_pic.jpg" id="second_right_pic" >
         </div>
@@ -152,16 +152,20 @@
         </div>
         <div class="fourth-section-right">
           <p>Select your finish below:</p>
-            <select class="select-buttons" name="">
-              <option selected>Matte Black</option>
-              <option>Jet Gloss</option>
+            <select id="select-type">
+              <option value="matte" selected>Matte Black</option>
+              <option value="jet">Jet Gloss</option>
             </select>
-
+            <ul>
+              <li class="active" id="matte" data-text="Matte Black">Matte Black</li>
+              <li  id="jet" data-text="Jet Gloss">Jet Gloss</li>
+            </ul>
           <p>Model:</p>
-          <select>
+          <select id="select-size">
             <option value="13-inches">Macbook Pro 13" (Touchbar)</option>
             <option value="15-inches">Macbook Pro 15" (Touchbar)</option>
           </select>
+      
           <span id="price"><strong>$ 49 </strong><small><sup>95</sup></small></span>
           <a href="#" class="button" id="check-out-button">CHECK OUT</a>
           <a href="#" id="add-to-cart-link">ADD TO CART</a>
