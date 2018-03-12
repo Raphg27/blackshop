@@ -396,13 +396,6 @@ width: 500px;
 }
 
 
-#fuck {
-  padding: 15px 25px !important;
-  border-radius: 25px;
-  border: 1px solid #111111 !important;
-  cursor: pointer;
-  z-index: 10000;
-}
 
 
 #price {
@@ -601,11 +594,14 @@ display: none;
 
 .third-section-text {
   margin-top: 230px;
+  padding: 0 50px;
 }
 
 .pix-text {
   display: none;
 }
+
+
 
 #second_left_pic {
   width: 200px;
@@ -637,9 +633,6 @@ display: none;
   width: 75px;
 }
 
-.third-section-pix {
-  top: 3450px;
-}
 
 #third_left_pic {
   width: 200px;
@@ -662,6 +655,15 @@ margin-top: 300px;
 #fourth-laptop {
   width: 200px;
   margin-right: 0;
+}
+
+
+.pix {
+  top: 2000px;
+}
+
+.third-section-pix {
+  top: 3450px;
 }
 
 }
