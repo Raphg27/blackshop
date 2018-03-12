@@ -305,7 +305,7 @@ padding: 0;
   font-size: 16px;
 }
 
-#thrid_right_pic {
+#third_right_pic {
 width: 500px;
 }
 
@@ -326,7 +326,6 @@ width: 500px;
   background-color: #111111;
 }
 
-
 .banner-box {
   display: flex;
   flex-direction: column;
@@ -336,12 +335,335 @@ width: 500px;
   text-align: center;
   line-height: 1.5;
 }
+.icon {
+  width: 50px;
+  margin-bottom: 25px;
+}
 
+
+
+/* Second banner */
 .black-banner-box {
   color: white;
 }
 
-.icon {
-  width: 50px;
+.reviewer {
+  width: 100px;
   margin-bottom: 25px;
+}
+
+/* Big banner - Refund */
+
+.big-banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  background-color: #e6e9ec;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 200px;
+}
+
+#fullmoney-icon {
+  margin-bottom: 25px;
+  width: 150px;
+}
+
+/* Fourth section */
+
+.fourth-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    height: 900px;
+}
+
+.fourth-section-title {
+  margin-bottom: 70px;
+}
+
+.fourth-section-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#fourth-laptop {
+  width: 500px;
+  margin-right: 100px;
+}
+
+
+
+
+#price {
+  font-size: 22px;
+  margin-top: 25px ;
+}
+
+#check-out-button {
+  text-align: center;
+  background: #111111;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 50px;
+  margin: 25px 0;
+  transition: all 0.2s;
+}
+
+#check-out-button:hover {
+  opacity: 0.9;
+}
+
+
+
+
+#add-to-cart-link {
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.fourth-section-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.check-line {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.check-icon {
+  width: 20px;
+  margin-right: 25px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+  height: 200px;
+  z-index: 500;
+}
+
+#footer-logo {
+  width: 150px;
+}
+
+/* Select buttons */
+select {
+      -webkit-writing-mode: horizontal-tb;
+      text-rendering: auto;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: start;
+margin: 0em;
+    border-radius: 5px;
+box-sizing: border-box;
+align-items: center;
+white-space: pre;
+-webkit-rtl-ordering: logical;
+color: black;
+background-color: white;
+cursor: default;
+border-width: 1px;
+border-style: solid;
+border-color: rgb(166, 166, 166);
+height: 50px;
+font-size: 16px;
+-webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
+    text-indent: 10px;
+}
+
+#select-type {
+  display: none;
+}
+
+
+
+ul {
+  padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+  margin: 0;
+  width: 50%;
+display: inline-block;
+height: 18px;
+min-width: 18px;
+margin: 0 6px;
+position: relative;
+cursor: pointer;
+text-align: center;
+opacity: .66;
+padding: 5px 15px;
+min-width: 21px;
+height: 21px;
+border: 2px solid #ededed;
+border-radius: 5px;
+  transition: all 0.4s;
+
+}
+
+li:hover {
+  opacity: 1;
+  border-color: #000;
+}
+
+.active {
+  opacity: 1;
+  border-color: #000;
+}
+
+
+/* Responsiveness big screens */
+
+@media only screen and (min-width: 1500px) {
+.third-section {
+  background-size: cover;
+}
+
+#first_left_pic {
+  left: 500px;
+}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  #macbook {
+    font-size: 35px;
+  }
+#style {
+  font-size: 25px;
+}
+
+.first-section-text {
+  margin: 0;
+  padding: 50px;
+color: white;
+}
+
+#first_left_pic {
+  display: none;
+}
+
+#first_right_pic {
+  right: 0;
+  top: 450px;
+}
+
+.white-space {
+display: none;
+}
+
+.second-section {
+  background: none;
+  margin-top: 250px;
+  height: 500px;
+}
+
+.second-section-text {
+  margin: 0;
+  padding: 50px;
+}
+
+.section-text {
+  height: auto;
+}
+
+.third-section-text {
+  margin-top: 230px;
+  padding: 0 50px;
+}
+
+.pix-text {
+  display: none;
+}
+
+
+
+#second_left_pic {
+  width: 200px;
+  height: 200px;
+}
+
+#second_right_pic {
+  width: 200px;
+  height: 200px;
+}
+
+.third-section {
+  height: 700px;
+}
+
+.banner {
+  padding: 0;
+}
+
+.banner-box {
+  font-size: 12px;
+}
+
+.big-banner {
+  padding: 50px;
+}
+
+#fullmoney-icon {
+  width: 75px;
+}
+
+
+#third_left_pic {
+  width: 200px;
+}
+
+#third_right_pic {
+  width: 200px;
+}
+
+.fourth-section {
+margin-top: 300px;
+}
+
+.fourth-section-wrapper {
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+}
+
+#fourth-laptop {
+  width: 200px;
+  margin-right: 0;
+}
+
+
+.pix {
+  top: 2000px;
+}
+
+.third-section-pix {
+  top: 3450px;
+}
+
 }
