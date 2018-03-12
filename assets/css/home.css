@@ -326,7 +326,6 @@ width: 500px;
   background-color: #111111;
 }
 
-
 .banner-box {
   display: flex;
   flex-direction: column;
@@ -336,12 +335,164 @@ width: 500px;
   text-align: center;
   line-height: 1.5;
 }
+.icon {
+  width: 50px;
+  margin-bottom: 25px;
+}
 
+
+
+/* Second banner */
 .black-banner-box {
   color: white;
 }
 
-.icon {
-  width: 50px;
+.reviewer {
+  width: 100px;
   margin-bottom: 25px;
+}
+
+/* Big banner - Refund */
+
+.big-banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  background-color: #e6e9ec;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 200px;
+}
+
+#fullmoney-icon {
+  margin-bottom: 25px;
+  width: 150px;
+}
+
+/* Fourth section */
+
+.fourth-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    height: 800px;
+}
+
+.fourth-section-title {
+  margin-bottom: 70px;
+}
+
+.fourth-section-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#fourth-laptop {
+  width: 500px;
+  margin-right: 100px;
+}
+
+.select-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0;
+}
+
+#fuck {
+  padding: 15px 25px !important;
+  border-radius: 25px;
+  border: 1px solid #111111 !important;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+
+#price {
+  font-size: 22px;
+  margin-top: 25px ;
+}
+
+#check-out-button {
+  text-align: center;
+  background: #111111;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 50px;
+  margin: 25px 0;
+  transition: all 0.2s;
+}
+
+#check-out-button:hover {
+  opacity: 0.9;
+}
+
+
+
+
+#add-to-cart-link {
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.fourth-section-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.check-line {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.check-icon {
+  width: 20px;
+  margin-right: 25px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+  height: 200px;
+  z-index: 500;
+}
+
+#footer-logo {
+  width: 150px;
+}
+
+/* Select buttons */
+select {
+      -webkit-writing-mode: horizontal-tb;
+      text-rendering: auto;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: start;
+margin: 0em;
+    border-radius: 5px;
+box-sizing: border-box;
+align-items: center;
+white-space: pre;
+-webkit-rtl-ordering: logical;
+color: black;
+background-color: white;
+cursor: default;
+border-width: 1px;
+border-style: solid;
+border-color: rgb(166, 166, 166);
 }

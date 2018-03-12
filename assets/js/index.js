@@ -4,3 +4,9 @@ $(document).ready(function(){
   });
   $('.my-paroller').paroller();
 });
+
+$("#down-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".second-section").offset().top
+    }, 750);
+});
