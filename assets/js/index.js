@@ -9,13 +9,13 @@ $(document).ready(function(){
   $("#jet").click(function () {
     $("#select-type").val("jet");
   });
+  $("#down-button").click(function() {
+    $('html, body').animate({
+      scrollTop: $(".first-section").offset().top
+    }, 750);
+  });
 });
 
-$("#down-button").click(function() {
-  $('html, body').animate({
-    scrollTop: $(".second-section").offset().top
-  }, 750);
-});
 
 
 $(function() {
