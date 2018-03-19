@@ -152,23 +152,28 @@
         </div>
         <div class="fourth-section-right">
           <p>Select your finish below:</p>
-            <select id="select-type">
-              <option value="matte" selected>Matte Black</option>
-              <option value="jet">Jet Gloss</option>
-            </select>
-            <ul>
-              <li class="active" id="matte" data-text="Matte Black">Matte Black</li>
-              <li  id="jet" data-text="Jet Gloss">Jet Gloss</li>
-            </ul>
+          <select id="select-type">
+            <option value="matte" selected>Matte Black</option>
+            <option value="jet">Jet Gloss</option>
+          </select>
+          <ul>
+            <li class="active" id="matte" data-text="Matte Black">Matte Black</li>
+            <li  id="jet" data-text="Jet Gloss">Jet Gloss</li>
+          </ul>
           <p>Model:</p>
           <select id="select-size">
-            <option value="13-inches">Macbook Pro 13" (Touchbar)</option>
-            <option value="15-inches">Macbook Pro 15" (Touchbar)</option>
+            <option value="air-11-inches">MacBook Air 11"</option>
+            <option value="air-13-inches">MacBook Air 13"</option>
+            <option value="12-inches">MacBook 12"</option>
+            <option value="pro-13-inches">MacBook Pro Retina 13"</option>
+            <option value="pro-15-inches">MacBook Pro Retina 15"</option>
+            <option value="pro-touch-13-inches">MacBook Pro 13" (Touchbar/No Touchbar 2016+)</option>
+            <option value="pro-touch-15-inches">Macbook Pro 15" (Touchbar 2016+)</option>
           </select>
 
           <span id="price"><strong>$ 49 </strong><small><sup>95</sup></small></span>
-          <a href="#" class="button" id="check-out-button">CHECK OUT</a>
-          <a href="#" id="add-to-cart-link">ADD TO CART</a>
+          <a class="button" id="check-out-button" onclick="submit();">CHECK OUT</a>
+          <a id="add-to-cart-link">ADD TO CART</a>
           <div class="check-line">
             <img src="images/check.png" class="check-icon">
             <span><strong>Premium</strong> build quality and materials</span>
